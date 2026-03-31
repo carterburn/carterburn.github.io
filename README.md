@@ -1,2 +1,2 @@
-# carterburn.github.io
-My personal page
+# Github Pages Site
+Site to host blog posts and other content.
