@@ -22,10 +22,11 @@ If they're not, then at least this is an attempt to force myself to write
 technical content and get it on the Internet.
 
 ## Current State
-Another one of my pitfalls I've learned through personal projects is my ability
+Another one of my weaknesses with respect to personal projects is my inability
 to finish them. I am not going to make any promises that I will do that (or that
 this blog will help me finish them). 
-> If we're being honest, is a project ever "done"?! 
+> If we're being honest, is a project ever "done"?!
+
 Currently, I'm working on implementing the Raft consensus algorithm in Rust. I'm
 taking a sans-i/o approach to it and focusing on the algorithm correctness at
 the moment. I plan to finish that soon and then write the event loop (where the
