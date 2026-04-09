@@ -38,7 +38,7 @@ implementation. I actually got up to the point where multiple servers would
 interact and that made me switch over to writing the Raft library. I'm not sure
 if I'll combine the two (mostly because I like the idea of a raw KV store
 instead of adding the Redis-specific items), but maybe that'll happen. Check out
-my progress so far (here)[https://github.com/carterburn/codecrafters-redis-rust].
+my progress so far [here](https://github.com/carterburn/codecrafters-redis-rust).
 
 I've also been working on a tunneling tool (there's those security tools again)
 that allows a user to tunnel into a network using a tun device on their host
@@ -58,20 +58,20 @@ Two main things to point out as previous Rust work:
 
 1) I wrote a simple crate for a socks5 proxy in Rust. It's pretty bad, but it
 was honestly my first attempt at writing any sort of networking code in Rust
-using tokio. You can find it on (crates.io)[https://crates.io/crates/socksprox]
+using tokio. You can find it on [crates.io](https://crates.io/crates/socksprox)
 and the source on [Github](https://github.com/carterburn/socksprox). I have to
 say, greater than 3k downloads is still pretty cool, even if that's a bunch of
 crates.io mirrors downloading the crate every once in awhile. 
 2) I wrote a userland exec binary in Rust a little bit ago. I called it santa
 because it only loads ELF binaries. I drew inspriation from a Python
-(implementation)[https://github.com/anvilsecure/ulexecve/tree/main]
-of userland exec and a Rust (one)[https://github.com/io12/userland-execve-rust/tree/main]. 
+[implementation](https://github.com/anvilsecure/ulexecve/tree/main)
+of userland exec and a Rust [one](https://github.com/io12/userland-execve-rust/tree/main). 
 This is another one of those security tools that allows someone to load up a 
 binary inside an existing process's memory (santa itself) without having
 the kernel do it. It can load binaries from files, stdin, or from a remote URL.
 While writing this blog, I forgot I had to add a few things to the README, so I
 sent Claude off to go do that. Check out the repo
-(here)[https://github.com/carterburn/santa].
+[here](https://github.com/carterburn/santa).
 
 ## Quick Word on AI (blog posts in 2026 must include)
 In a lot of my projects, I do leverage Claude Code. My approach to using AI,
