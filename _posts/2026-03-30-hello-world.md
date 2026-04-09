@@ -7,7 +7,7 @@ tags:
 
 Hello world from Github Pages! 
 
-As seen in the [about](/about.md) page, I set this blog up to start
+As seen in the [about](/about) page, I set this blog up to start
 getting some written content out to the world. The greatest barrier to entry for
 me has been trying to capture a "perfect" post and spending so much time getting
 a post there that I end up getting distracted and never actually publish it. I
