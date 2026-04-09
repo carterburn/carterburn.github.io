@@ -23,10 +23,10 @@ The plan is to try to follow the tutorial's fifteen parts as closely as
 possible, but in Rust. I'm also going to attempt to avoid dependencies at all
 costs for two reasons:
 
-1) SQLite itself prides itself on minimal dependencies. I've heard on a podcast
+1. SQLite itself prides itself on minimal dependencies. I've heard on a podcast
 with the creator that with no dependencies comes freedom to do what you want;
 it's like backpacking in the wilderness, you're all on your own.
-2) Using something like the `BTreeMap` in the Rust standard library feels like
+2. Using something like the `BTreeMap` in the Rust standard library feels like
 cheating. We have to struggle through this!
 
 ## Extensions 
@@ -46,7 +46,13 @@ through.
 
 ## Table of Contents
 Here is the table of contents for the entire series. I wanted this to be higher
-in the post. See below this section for Getting Started!
+in the post. See below this section for Getting Started! 
+
+These are going to take the form of the original series by cstack mostly. More
+will be added as we work our way through. 
+
+1. Part 1 - SQLite Introduction and Setting up the REPL in fdb --> Coming Soon!
+2. TBD
 
 ## Getting Started
 To get started, I'm going to create a new Rust crate. I'll start by creating
@@ -102,3 +108,8 @@ cargo run
 
 Of course, we now push to Github. You can find the repo [here](https://github.com/carterburn/foundrydb).
 We'll add a README later on.
+
+In the spirit of cstack's original post, I'll include the SQLite Architecture
+diagram as referenced at https://www.sqlite.org/arch.html.
+
+![sqlite architecture](https://cstack.github.io/db_tutorial/assets/images/arch2.gif)
