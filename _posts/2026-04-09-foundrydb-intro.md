@@ -4,6 +4,7 @@ layout: single
 tags:
     - database
     - sqlite-series
+    - foundrydb
 ---
 
 Hey, all! Back at it again trying to write posts. While I do believe the Roundup
@@ -51,7 +52,7 @@ in the post. See below this section for Getting Started!
 These are going to take the form of the original series by cstack mostly. More
 will be added as we work our way through. 
 
-1. Part 1 - SQLite Introduction and Setting up the REPL in fdb --> Coming Soon!
+1. [Part 1 - SQLite Introduction and Setting up the REPL in fdb](/foundrydb-part1)
 2. TBD
 
 ## Getting Started
