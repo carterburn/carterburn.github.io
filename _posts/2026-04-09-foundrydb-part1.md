@@ -139,10 +139,10 @@ commands are standard SQL commands that we'll tackle later. The SQL statements
 will be the bulk of our focus with the tokenizer, parser, etc. For now, we'll
 just support `.exit` to get the REPL started.
 
-In Rust, the easiest way will be to use the `read_line` method on the `BufRead`
+In Rust, the easiest approach will be to use the `read_line` method on the `BufRead`
 trait which has a signature of:
 `fn read_line(&mut self, buf: &mut String) -> Result<usize>`. We'll have to
-handle the `Result` and `Ok(0)` means EOF (i.e. the input has been closed from a 
+handle the `Result`. `Ok(0)` means EOF (i.e. the input has been closed from a 
 Ctrl-C or Ctrl-D). `Ok(n)` means `n` bytes were read into the buffer. This will
 include the newline at the end of the line, so we'll use `trim()` to remove all
 leading and trailing whitespace. Any `Err` on the `Result` will be propagated
