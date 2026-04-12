@@ -256,4 +256,4 @@ This section contains the order of the series for easier navigation.
 
 | Previous Article | Next Article |
 |:----------------:|:------------:|
-| [Intro](/foundrydb-intro) | **Coming Soon!** |
+| [Intro](/foundrydb-intro) | [Part 2 - Writing the Lexer for fdb](/foundrydb-part2) |

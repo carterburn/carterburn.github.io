@@ -30,6 +30,21 @@ it's like backpacking in the wilderness, you're all on your own.
 2. Using something like the `BTreeMap` in the Rust standard library feels like
 cheating. We have to struggle through this!
 
+**Edit**: I have also decided to incorporate Phil Eaton's blog post on writing a
+SQL database in Zig with RocksDB as the storage layer. You can find the blog
+post [here](https://notes.eatonphil.com/zigrocks-sql.html). This series is going
+to be a slight marrying up of cstack's tutorial and Phil's. Why? Well, in
+cstack's tutorial, the focus is on the storage layer using a **B-tree** but as a
+result, the lexing and parsing of SQL syntax is sort of handwaved. Even in part
+2 of cstack's tutorial, the SQL syntax isn't exactly the same as you would find
+in SQLite. It's a more custom syntax. On the other hand, Phil's blog dives deep
+into lexing and parsing of SQL syntax but slightly handwaves the storage layer
+(I say that in the sense that the actual on-disk representation of the database
+is handled by RocksDB, but Phil still has to represent the tables and rows in
+the key-value store which did take effort to get right). As a result, I feel
+that combining the frontend portion of Phil's post with the backend portion of
+cstack would be a nice way to expose a closer-to-reality SQLite clone.
+
 ## Extensions 
 I plan to make a few extensions to the original at the end (if I'm up for it).
 One of them would be to add the Write Ahead Log (WAL) functionality of SQLite.
@@ -53,7 +68,8 @@ These are going to take the form of the original series by cstack mostly. More
 will be added as we work our way through. 
 
 1. [Part 1 - SQLite Introduction and Setting up the REPL in fdb](/foundrydb-part1)
-2. TBD
+2. [Part 2 - Writing the Lexer for fdb](/foundrydb-part2)
+3. TBD
 
 ## Getting Started
 To get started, I'm going to create a new Rust crate. I'll start by creating

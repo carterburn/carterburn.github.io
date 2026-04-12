@@ -1,4 +1,6 @@
 title: carterburn
+url: "https://blog.burnthe.dev"
+baseurl: ""
 
 
 minimal_mistakes_skin: dark
@@ -31,7 +33,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://carterburn.github.io"
+      url: "https://blog.burnthe.dev"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/carterburn"
