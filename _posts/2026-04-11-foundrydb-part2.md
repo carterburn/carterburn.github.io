@@ -688,4 +688,4 @@ This section contains the order of the series for easier navigation.
 
 | Previous Article | Next Article |
 |:----------------:|:------------:|
-| [Part 1 - SQLite Introduction and Setting up the REPL in fdb](/foundrydb-part1) | **Coming Soon!** |
+| [Part 1 - SQLite Introduction and Setting up the REPL in fdb](/foundrydb-part1) | **[Part 3 - Writing the Parser for fdb](/foundrydb-part3)** |
